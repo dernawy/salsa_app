@@ -1,0 +1,596 @@
+/** Administrator main stylesheet **/
+@media (min-width: 1200px)  {
+
+    .div_deeuser_con {
+
+    }
+}
+
+/** Start of Delete user container **/
+.div_admin_delusers_container{
+
+}
+
+/** Start of page title **/
+.div_deluser_pagetitle{
+    width: 100%;
+}
+
+/** Start of page tilte text **/
+.h1_deluser_pagetitle{
+    width: 100%;
+    font-family: 'sans-serif', fantasy;
+    font-style: oblique;
+    color: #d4e3f1;
+    text-shadow: 4px 2px 5px #607D8B;
+}
+
+/** Start of delet page header **/
+.div_admin_delusers_header{
+    width: 100%;
+    display: inline-block;
+}
+
+.div_adduser{
+    margin: 0 20px 0 20px;
+}
+
+.add_form_container {
+    width: 63%;
+    margin: 0 auto 0 auto;
+}
+
+.form_add_user {
+    border: solid 1px grey;
+    border-radius: 8px 8px;
+    box-shadow: 1px 2px 7px 2px grey;
+}
+
+label {
+    display: block;
+    max-width: 100%;
+    margin: 20px 0 0 25px;
+    font-weight: 700;
+}
+
+.add_form_group{
+    margin-bottom: 15px;
+}
+
+.add-form-control {
+    display: block;
+    width: 97%;
+    height: 34px;
+    padding: 6px 12px;
+    margin-left: 22px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.div_row_1, .div_row_2, .div_row_3, .div_row_4, .div_row_5 {
+    display: block;
+    margin-right: 0;
+}
+
+.div_add_firstname,
+.div_add_lastname,
+.div_add_username {
+    display: inline-block;
+    width: 31%;
+}
+
+
+.div_add_password,
+.div_add_email,
+.div_add_joindate {
+    display: inline-block;
+    width: 31%;
+}
+.div_add_isactiv,
+.div_add_level,
+.div_add_loged {
+    display: inline-block;
+    width: 31%;
+}
+
+.div_add_baned,
+.div_add_conf,
+.div_add_lastvisit {
+    display: inline-block;
+    width: 31%;
+}
+
+.div_add_param,
+.div_add_lastreset ,
+.div_add_resetcount {
+    display: inline-block;
+    width: 31%;
+}
+
+.div_add_btn {
+    display: block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/** Start of delet page contents **/
+.div_admin_delusers_contents{
+    width: 100%;
+    padding: 7px;
+}
+
+/** Start of users table **/
+.table_users_del{
+
+}
+
+/** Start of first row (user info) **/
+.tr_user_table_header_row{
+    font-weight: bold;
+}
+
+/** Start of first row td **/
+.td_users_table_header{
+    border: 1px solid silver;
+    padding: 10px;
+    text-align:center;
+}
+
+/** Start of second row **/
+.tr_user_details_row{
+    border: 1px solid silver;
+}
+
+/** Start of second row td-1 **/
+.td_user_details{
+
+    border: 1px solid silver;
+    padding: 10px;
+    text-align:center;
+}
+
+.td_user_inscr{
+    border: 1px solid silver;
+    padding: 10px;
+    text-align:center;
+}
+
+/** Start of second row td-2 **/
+.td_user_operations{
+    border: solid 1px silver;
+    text-align:center;
+}
+
+/** Start of last td (operations) edit,delete **/
+.td_operation_btns>div{
+    display: inline-block;
+}
+
+/** Start of edit icon li **/
+.li_edit{
+    display:inline-block;
+    list-style: none;
+}
+
+/** Start of edit icon span **/
+.edit_icon{
+    font-size: 12px;
+}
+
+/** Start of block icon li **/
+.li_block{
+    display:inline-block;
+    list-style: none;
+}
+
+/** Start of block icon span **/
+
+.btnout {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+}
+
+.edit-icon{
+    position: relative;
+    top: 1px;
+    right: 3px;
+    margin: 0 0 0 0;
+    font-size: 12px;
+    color: #007bff;
+}
+
+.btn-outline-edit{
+    width: 68px;
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+.btn-outline-edit:hover{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-outline-edit:hover .edit-icon{
+    color: #fff;
+}
+
+.del-icon{
+    position: relative;
+    top: 1px;
+    right: 3px;
+    margin: 0 0 0 0;
+    font-size: 12px;
+    color: #dc3545;
+}
+
+.btn-outline-del{
+    width: 68px;
+    color: #dc3545;
+    background-color: transparent;
+    background-image: none;
+    border-color: #dc3545;
+}
+
+.btn-outline-del:hover{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-del:hover .del-icon{
+    color: #fff;
+}
+
+.ban-icon{
+    position: relative;
+    top: 1px;
+    right: 3px;
+    margin: 0 0 0 0;
+    font-size: 12px;
+    color: #ffc107;
+}
+
+.btn-outline-ban{
+    width: 68px;
+    color: #ffc107;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffc107;
+}
+
+.btn-outline-ban:hover{
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-outline-ban:hover .ban-icon{
+    color: #fff;
+}
+
+.unban-icon{
+    position: relative;
+    top: 1px;
+    right: 3px;
+    margin: 0 0 0 0;
+    font-size: 12px;
+    color: #28a745;
+}
+
+.btn-outline-unban{
+    width: 68px;
+    color: #28a745;
+    background-color: transparent;
+    background-image: none;
+    border-color: #28a745;
+}
+
+.btn-outline-unban:hover{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-unban:hover .unban-icon{
+    color: #fff;
+}
+
+/** Start of del icon li **/
+.li_del{
+    display:inline-block;
+    list-style: none;
+}
+
+.div_deluser_viewdel_table{
+    border: solid 1px silver;
+    text-align: center;
+    width: 100%;
+}
+
+.td_usrdel_table_title_cell{
+    border: solid 1px silver;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.td_usrdel_table_info_cell{
+    border: solid 1px silver;
+    text-align: center;
+    font-size: 16px;
+}
+
+.div_deluser_table_below{
+
+}
+
+.del_status_users_no{
+    font-size: 18px;
+}
+
+.del_status_users_no_txt1{
+    font-size: 14px;
+}
+
+.stattstic_users_count{
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+}
+
+.del_status_users_no_txt2{
+    font-size: 14px;
+}
+
+.div_usr_del_add_section1, .div_usr_del_add_section2{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.div_usr_del_add_section1 .p_usr_del_add_section_taxt1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div_usr_del_add_section2 .p_usr_del_add_section_taxt2{
+    display: inline-block;
+    margin-right: 17px;
+    text-align: center;
+}
+
+.p_usr_del_icon_add{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.p_usr_del_add_section_taxt3{
+    margin-right: 10px;
+}
+
+.p_usr_del_icon_info{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.p_usr_del_icon_add, .p_usr_del_add_section_taxt3, .p_usr_del_icon_info, .p_usr_del_add_section_taxt4{
+    display: inline-block;
+    text-align: center;
+}
+
+/**  **/
+
+.table>tbody>tr>td{
+    padding: 3px;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.table>tbody>tr>th {
+    padding: 3px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+/** RESPONSIVE **/
+@media
+only screen and (min-width: 320px) and (max-width: 1024px) {
+
+    .div_adduser{
+        margin: 0 20px 0 20px;
+    }
+
+    .table>tbody>tr>th, .table>thead>tr>th {
+        padding: 3px;
+        vertical-align: middle;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .table>tbody>tr>td {
+        padding: 3px;
+        text-align: center;
+        vertical-align: baseline;
+        font-size: 9px;
+
+    }
+
+    .add_form_container {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .add_form_group{
+        margin-bottom: 15px;
+    }
+
+    .add-form-control {
+        display: block;
+        width: 97%;
+        height: 34px;
+        padding: 6px 12px;
+        margin-left: 23px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+
+    label {
+        display: block;
+        width: 70%;
+        max-width: 100%;
+        margin: 18px 0 0 27px;
+        font-weight: 700;
+    }
+
+    .btn{
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: 7px 1px;
+        font-size: 8px;
+        line-height: 0.25;
+        border-radius: .25rem;
+        transition: all .15s ease-in-out;
+    }
+
+    .div_row_1, .div_row_2, .div_row_3, .div_row_4, .div_row_5 {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .edit-icon{
+        visibility: hidden;
+        position: relative;
+        top: 5px;
+        margin:5px 5px 0 -19px;
+        font-size: 14px;
+        color: #007bff;
+    }
+
+    .btn-outline-edit{
+        color: #007bff;
+        background-color: transparent;
+        background-image: none;
+        border-color: #007bff;
+    }
+
+    .btn-outline-edit:hover{
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .del-icon{
+        visibility: hidden;
+        position: relative;
+        top: 5px;
+        font-size: 14px;
+        margin: 5px 5px 0 -19px;
+        color: #dc3545;
+    }
+
+    .btn-outline-del{
+        color: #dc3545;
+        background-color: transparent;
+        background-image: none;
+        border-color: #dc3545;
+    }
+
+    .btn-outline-del:hover{
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .ban-icon{
+        visibility: hidden;
+        position: relative;
+        top: 5px;
+        font-size: 14px;
+        margin: 5px 5px 0 -19px;
+        color: #ffc107;
+    }
+
+    .btn-outline-ban{
+        color: #ffc107;
+        background-color: transparent;
+        background-image: none;
+        border-color: #ffc107;
+    }
+
+    .btn-outline-ban:hover{
+        color: #fff;
+        background-color: #ffc107;
+        border-color: #ffc107;
+    }
+
+    .unban-icon{
+        visibility: hidden;
+        position: relative;
+        top: 5px;
+        font-size: 14px;
+        margin: 5px 5px 0 -19px;
+        color: #28a745;
+    }
+
+    .btn-outline-unban{
+        color: #28a745;
+        background-color: transparent;
+        background-image: none;
+        border-color: #28a745;
+    }
+
+    .btn-outline-unban:hover{
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+}

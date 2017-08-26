@@ -1,0 +1,123 @@
+/** Users Home page NavBAr menu style  **/
+
+/* To Dropdown navbar dropdown on hover */
+.navbar-nav > li:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/** start nav bars **/
+
+#users-search-icon {
+    position: relative;
+    top: 4px;
+    left: 286px;
+    color: #8fbc8f;
+}
+
+.user-home-search{
+
+}
+
+#user-search-input{
+    width: 300px;
+    height: 34px;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-btn{
+
+}
+
+.form-control{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.feedleft{
+    position: absolute;
+    top: 1px;
+    left: 8px;
+    z-index: 10;
+    display: block;
+    width: 34px;
+    height: 32px;
+    line-height: 34px;
+    text-align: left;
+    pointer-events: none;
+}
+
+.feedback-right{
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 32px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+
+/** end nav bars **/
+
+@media
+only screen and (min-width: 320px) and (max-width: 1024px) {
+    .search-btn{
+        position: relative;
+        float: left;
+
+    }
+
+    .search-container{
+        width: 50%;
+        margin: 0 auto 0 auto;
+    }
+}
