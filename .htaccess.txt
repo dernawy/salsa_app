@@ -1,0 +1,14 @@
+##
+# @Site   Salsa
+# @copyright  Copyright (C) 2016 - 2017 Latrash Akram. All rights reserved.
+# @license    GNU General Public License version 2 or later; see LICENSE.txt
+##
+
+##
+# READ THIS COMPLETELY IF YOU CHOOSE TO USE THIS FILE!
+#
+AuthType Basic
+AuthName "Protected Area"
+AuthUserFile C:\\xampp\\htdocs\\developping\\salsa_app\\administrator\\protected_Area/.htpasswd
+Require valid-user
+##
